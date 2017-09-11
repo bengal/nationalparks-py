@@ -81,8 +81,8 @@ def format_result(entries):
         data = {}
 
         data['id'] = entry['name']
-        data['latitude'] = str(entry['coordinates'][0])
-        data['longitude'] = str(entry['coordinates'][1])
+        data['latitude'] = str(entry['coordinates'][1])
+        data['longitude'] = str(entry['coordinates'][0])
         data['name'] = entry['toponymName']
 
         result.append(data)
